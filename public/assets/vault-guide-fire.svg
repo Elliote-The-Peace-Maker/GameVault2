@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <defs>
+    <linearGradient id="f1" x1="80" y1="12" x2="80" y2="146" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF07C"/><stop offset=".4" stop-color="#FF9B3D"/><stop offset=".78" stop-color="#FF2674"/><stop offset="1" stop-color="#8D4DFF"/></linearGradient>
+    <linearGradient id="f2" x1="30" y1="40" x2="119" y2="144" gradientUnits="userSpaceOnUse"><stop stop-color="#FFB44C"/><stop offset=".55" stop-color="#FF3D7C"/><stop offset="1" stop-color="#B751FF"/></linearGradient>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%"><feGaussianBlur stdDeviation="3" result="b"/><feComposite in="SourceGraphic" in2="b" operator="over"/></filter>
+  </defs>
+  <g stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M80 145c-14-10-17-20-12-32 3-7 9-12 8-22 10 6 15 15 12 24 14-11 15-27 10-39 20 14 30 31 23 48-5 12-16 19-41 21Z" stroke="url(#f1)" stroke-width="5"/>
+    <path d="M39 128c-11-8-12-18-6-26 4-5 7-9 5-16 12 7 16 16 11 24 10-5 13-14 12-23 14 11 17 23 10 33-6 8-15 11-32 8Z" stroke="url(#f2)" stroke-width="4"/>
+    <path d="M121 126c-8-7-8-15-3-21 3-4 5-7 4-13 10 7 12 14 8 21 8-4 10-11 9-18 11 9 12 18 7 26-5 7-13 9-25 5Z" stroke="url(#f1)" stroke-width="4"/>
+  </g>
+  <path d="m35 35 2 7 7 2-7 2-2 7-2-7-7-2 7-2 2-7Zm92 14 1.5 5.5L134 56l-5.5 1.5L127 63l-1.5-5.5L120 56l5.5-1.5L127 49Z" fill="#FFCD69"/>
+</svg>

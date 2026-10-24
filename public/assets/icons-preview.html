@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100d18">
+  <title>GameVault · Icon library</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 83% 0,#39214b 0,transparent 40%),#100d18;color:#f6f1fa;font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}main{width:min(1120px,100% - 36px);margin:0 auto;padding:58px 0 72px}.eyebrow{color:#d78ada;text-transform:uppercase;font-size:11px;font-weight:700;letter-spacing:.17em}h1{margin:8px 0;font-size:clamp(32px,5vw,48px);letter-spacing:-.045em}.intro{max-width:650px;color:#ada4b8}.group{margin-top:38px}.group h2{margin:0 0 13px;font-size:16px;color:#e6d9ee}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(132px,1fr));gap:9px}.tile{display:grid;justify-items:center;align-content:center;gap:10px;min-height:105px;padding:14px 8px;border:1px solid #ffffff14;border-radius:12px;background:linear-gradient(150deg,#1d1926,#16131e);color:#c9c0d0;cursor:pointer;transition:border-color .18s,transform .18s,background .18s}.tile:hover,.tile:focus-visible{outline:0;transform:translateY(-2px);border-color:#bb78d2;background:#251b2d;color:#fff}.tile svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.tile span{font-size:11px}.hint{margin-top:22px;color:#82798a;font-size:12px}.toast{position:fixed;left:50%;bottom:22px;translate:-50% 10px;padding:9px 14px;border:1px solid #81569a;border-radius:99px;background:#21182b;color:#f8eafa;font-size:12px;opacity:0;transition:.2s;pointer-events:none}.toast.show{translate:-50% 0;opacity:1}@media(max-width:520px){main{width:min(100% - 24px,1120px);padding-top:34px}.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.tile{min-height:94px}}
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">GameVault · DESIGN SYSTEM</p>
+    <h1>Icon library</h1>
+    <p class="intro">A small, consistent set of interface symbols for GameVault. Every icon shares the same 24 px grid and rounded 1.7 px stroke. Select any tile to copy its icon name.</p>
+    <div id="catalog"></div>
+    <p class="hint">Icons use the surrounding text color, so they stay crisp in the sidebar, buttons, profile cards, and mobile navigation.</p>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite">Icon name copied</div>
+  <script>
+    const groups={
+      Navigation:['home','explore','communities','games','library','creator','media','streams','messages','notifications','challenges','history','account','settings','help','moderation'],
+      Actions:['search','menu','plus','close','chevron-down','arrow-right','filter','grid','list','edit','trash','upload','download','check','external-link','more','send','link','share','copy'],
+      Community:['heart','comment','reply','flag','follow','invite'],
+      Status:['eye','lock','verified','status','alert'],
+      Platforms:['discord','twitch','youtube','instagram','x']
+    };
+    const catalog=document.querySelector('#catalog'),toast=document.querySelector('#toast');let hideToast;
+    for(const [group,names] of Object.entries(groups)){
+      const section=document.createElement('section');section.className='group';
+      const heading=document.createElement('h2');heading.textContent=group;section.append(heading);
+      const grid=document.createElement('div');grid.className='grid';
+      for(const name of names){const button=document.createElement('button');button.type='button';button.className='tile';button.setAttribute('aria-label',`Copy ${name} icon name`);button.innerHTML=`<svg aria-hidden="true"><use href="/assets/icons.svg#icon-${name}"></use></svg><span>${name}</span>`;button.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(name);toast.textContent=`Copied “${name}”`;toast.classList.add('show');clearTimeout(hideToast);hideToast=setTimeout(()=>toast.classList.remove('show'),1300)}catch{toast.textContent=name;toast.classList.add('show');clearTimeout(hideToast);hideToast=setTimeout(()=>toast.classList.remove('show'),1300)}});grid.append(button)}
+      section.append(grid);catalog.append(section)
+    }
+  </script>
+</body>
+</html>

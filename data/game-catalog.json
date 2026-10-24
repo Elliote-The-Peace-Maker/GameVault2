@@ -1,0 +1,555 @@
+[
+  {
+    "title": "Grand Theft Auto",
+    "slug": "grand-theft-auto",
+    "year": 1997,
+    "setting": "Liberty City, Vice City and San Andreas",
+    "genre": "Top-down action",
+    "description": "The original entry in the series. Explore the early top-down cities of Liberty City, Vice City, and San Andreas.",
+    "platforms": [
+      "Windows PC",
+      "PlayStation",
+      "Game Boy Color"
+    ],
+    "platform_slugs": [
+      "pc",
+      "ps1",
+      "gbc"
+    ],
+    "catalog_note": "Historical platform information varies by release.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "game",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-1997-screenshot.jpg",
+    "game_image_type": "gameplay-screenshot",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto: London 1969",
+    "slug": "grand-theft-auto-london-1969",
+    "year": 1999,
+    "setting": "London, 1969",
+    "genre": "Expansion",
+    "description": "A London-set expansion for the original Grand Theft Auto, with missions across a stylized 1969 city.",
+    "platforms": [
+      "Windows PC",
+      "PlayStation"
+    ],
+    "platform_slugs": [
+      "pc",
+      "ps1"
+    ],
+    "catalog_note": "Historical platform information varies by release.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "expansion",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-london-1969.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-london-1969-screenshot.jpg",
+    "game_image_type": "gameplay-screenshot",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto: London 1961",
+    "slug": "grand-theft-auto-london-1961",
+    "year": 1999,
+    "setting": "London, 1961",
+    "genre": "Expansion",
+    "description": "A free PC expansion set in London several years before London 1969.",
+    "platforms": [
+      "Windows PC"
+    ],
+    "platform_slugs": [
+      "pc"
+    ],
+    "catalog_note": "PC expansion; historical availability may vary.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "expansion",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-london-1961.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-london-1961-screenshot.jpg",
+    "game_image_type": "gameplay-screenshot",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto 2",
+    "slug": "grand-theft-auto-2",
+    "year": 1999,
+    "setting": "Anywhere City",
+    "genre": "Top-down action",
+    "description": "A standalone top-down entry set in the districts of Anywhere City.",
+    "platforms": [
+      "Windows PC",
+      "PlayStation",
+      "Dreamcast",
+      "Game Boy Color"
+    ],
+    "platform_slugs": [
+      "pc",
+      "ps1",
+      "dreamcast",
+      "gbc"
+    ],
+    "catalog_note": "Historical platform information varies by release.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "game",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-2.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-2-screenshot.jpg",
+    "game_image_type": "gameplay-screenshot",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto III",
+    "slug": "grand-theft-auto-iii",
+    "year": 2001,
+    "setting": "Liberty City",
+    "genre": "Action adventure",
+    "description": "The series moves into a fully 3D Liberty City, with a story-led open-world campaign.",
+    "platforms": [
+      "Windows PC",
+      "PlayStation 2",
+      "Xbox",
+      "Mobile"
+    ],
+    "platform_slugs": [
+      "pc",
+      "ps2",
+      "xbox",
+      "ios",
+      "android"
+    ],
+    "catalog_note": "Platform availability differs by edition.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "game",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-iii.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-iii-screenshot.jpg",
+    "game_image_type": "gameplay-screenshot",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto: Vice City",
+    "slug": "grand-theft-auto-vice-city",
+    "year": 2002,
+    "setting": "Vice City, 1986",
+    "genre": "Action adventure",
+    "description": "A neon-soaked story set in Vice City in 1986, following the rise of Tommy Vercetti.",
+    "platforms": [
+      "Windows PC",
+      "PlayStation 2",
+      "Xbox",
+      "Mobile"
+    ],
+    "platform_slugs": [
+      "pc",
+      "ps2",
+      "xbox",
+      "ios",
+      "android"
+    ],
+    "catalog_note": "Platform availability differs by edition.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "game",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-vice-city.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-vice-city-screenshot.jpg",
+    "game_image_type": "gameplay-screenshot",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto: San Andreas",
+    "slug": "grand-theft-auto-san-andreas",
+    "year": 2004,
+    "setting": "State of San Andreas, 1992",
+    "genre": "Action adventure",
+    "description": "A sprawling 3D-era journey through Los Santos, San Fierro, Las Venturas, and the surrounding state.",
+    "platforms": [
+      "Windows PC",
+      "PlayStation 2",
+      "Xbox",
+      "Mobile"
+    ],
+    "platform_slugs": [
+      "pc",
+      "ps2",
+      "xbox",
+      "ios",
+      "android"
+    ],
+    "catalog_note": "Platform availability differs by edition.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "game",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-san-andreas.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-san-andreas-screenshot.jpg",
+    "game_image_type": "gameplay-screenshot",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto Advance",
+    "slug": "grand-theft-auto-advance",
+    "year": 2004,
+    "setting": "Liberty City",
+    "genre": "Action",
+    "description": "A handheld top-down adventure set in Liberty City, made for Game Boy Advance.",
+    "platforms": [
+      "Game Boy Advance"
+    ],
+    "platform_slugs": [
+      "gba"
+    ],
+    "catalog_note": "Original release platform.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "game",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-advance.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-advance-screenshot.jpg",
+    "game_image_type": "gameplay-screenshot",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto: Liberty City Stories",
+    "slug": "grand-theft-auto-liberty-city-stories",
+    "year": 2005,
+    "setting": "Liberty City, 1998",
+    "genre": "Action adventure",
+    "description": "A portable 3D-era story set in Liberty City before the events of Grand Theft Auto III.",
+    "platforms": [
+      "PlayStation Portable",
+      "PlayStation 2",
+      "Mobile"
+    ],
+    "platform_slugs": [
+      "psp",
+      "ps2",
+      "ios",
+      "android"
+    ],
+    "catalog_note": "Platform availability differs by edition.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "game",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-liberty-city-stories.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-liberty-city-stories-screenshot.jpg",
+    "game_image_type": "gameplay-screenshot",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto: Vice City Stories",
+    "slug": "grand-theft-auto-vice-city-stories",
+    "year": 2006,
+    "setting": "Vice City, 1984",
+    "genre": "Action adventure",
+    "description": "A prequel story set in Vice City in 1984, first released for PlayStation Portable.",
+    "platforms": [
+      "PlayStation Portable",
+      "PlayStation 2"
+    ],
+    "platform_slugs": [
+      "psp",
+      "ps2"
+    ],
+    "catalog_note": "Platform availability differs by edition.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "game",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-vice-city-stories.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-vice-city-stories-screenshot.jpg",
+    "game_image_type": "gameplay-screenshot",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto: Chinatown Wars",
+    "slug": "grand-theft-auto-chinatown-wars",
+    "year": 2009,
+    "setting": "Liberty City",
+    "genre": "Action adventure",
+    "description": "A handheld-focused Liberty City story with a distinct top-down presentation.",
+    "platforms": [
+      "Nintendo DS",
+      "PlayStation Portable",
+      "Mobile"
+    ],
+    "platform_slugs": [
+      "ds",
+      "psp",
+      "ios",
+      "android"
+    ],
+    "catalog_note": "Platform availability differs by edition.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "game",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-chinatown-wars.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-chinatown-wars-screenshot.jpg",
+    "game_image_type": "gameplay-screenshot",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto IV",
+    "slug": "grand-theft-auto-iv",
+    "year": 2008,
+    "setting": "Liberty City, 2008",
+    "genre": "Action adventure",
+    "description": "Niko Bellic arrives in Liberty City in a grounded, character-driven open-world story.",
+    "platforms": [
+      "Windows PC",
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "platform_slugs": [
+      "pc",
+      "ps3",
+      "xbox360"
+    ],
+    "catalog_note": "Original release platforms; later availability varies.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "game",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-iv.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-iv-screenshot.jpg",
+    "game_image_type": "gameplay-screenshot",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto IV: The Lost and Damned",
+    "slug": "grand-theft-auto-iv-the-lost-and-damned",
+    "year": 2009,
+    "setting": "Liberty City",
+    "genre": "Story expansion",
+    "description": "An episodic Grand Theft Auto IV story centered on Johnny Klebitz and The Lost motorcycle club.",
+    "platforms": [
+      "Windows PC",
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "platform_slugs": [
+      "pc",
+      "ps3",
+      "xbox360"
+    ],
+    "catalog_note": "Originally released as downloadable content and later included in Episodes from Liberty City.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "expansion",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-iv-the-lost-and-damned.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-lost-and-damned-screenshot.jpg",
+    "game_image_type": "gameplay-screenshot",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto: The Ballad of Gay Tony",
+    "slug": "grand-theft-auto-the-ballad-of-gay-tony",
+    "year": 2009,
+    "setting": "Liberty City",
+    "genre": "Story expansion",
+    "description": "An episodic Grand Theft Auto IV story following Luis Lopez through Liberty City's nightlife.",
+    "platforms": [
+      "Windows PC",
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "platform_slugs": [
+      "pc",
+      "ps3",
+      "xbox360"
+    ],
+    "catalog_note": "Originally released as downloadable content and later included in Episodes from Liberty City.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "expansion",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-the-ballad-of-gay-tony.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-ballad-of-gay-tony-screenshot.jpg",
+    "game_image_type": "gameplay-screenshot",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto: Episodes from Liberty City",
+    "slug": "grand-theft-auto-episodes-from-liberty-city",
+    "year": 2009,
+    "setting": "Liberty City",
+    "genre": "Standalone expansion collection",
+    "description": "A standalone release collecting The Lost and Damned and The Ballad of Gay Tony.",
+    "platforms": [
+      "Windows PC",
+      "PlayStation 3",
+      "Xbox 360"
+    ],
+    "platform_slugs": [
+      "pc",
+      "ps3",
+      "xbox360"
+    ],
+    "catalog_note": "Includes two story expansions; platform availability varies by edition.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "collection",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-episodes-from-liberty-city.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-episodes-liberty-city-collage.svg",
+    "game_image_type": "gameplay-collage",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto V",
+    "slug": "grand-theft-auto-v",
+    "year": 2013,
+    "setting": "Los Santos and Blaine County",
+    "genre": "Action adventure",
+    "description": "Three protagonists share an open-world story across Los Santos and Blaine County in the state of San Andreas.",
+    "platforms": [
+      "Windows PC",
+      "PlayStation 3",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox 360",
+      "Xbox One",
+      "Xbox Series X|S"
+    ],
+    "platform_slugs": [
+      "pc",
+      "ps3",
+      "ps4",
+      "ps5",
+      "xbox360",
+      "xboxone",
+      "xbox"
+    ],
+    "catalog_note": "Platform availability differs by edition and generation.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "game",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-v.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-v-screenshot.jpg",
+    "game_image_type": "gameplay-screenshot",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto Online",
+    "slug": "grand-theft-auto-online",
+    "year": 2013,
+    "setting": "Los Santos and Blaine County",
+    "genre": "Online world",
+    "description": "The evolving online component associated with Grand Theft Auto V. GameVault does not connect to Rockstar accounts or gameplay services.",
+    "platforms": [
+      "Windows PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X|S"
+    ],
+    "platform_slugs": [
+      "pc",
+      "ps4",
+      "ps5",
+      "xboxone",
+      "xbox"
+    ],
+    "catalog_note": "Platform availability and online features vary by edition; no Rockstar integration is provided.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "online game",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-online.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-online-screenshot.jpg",
+    "game_image_type": "gameplay-screenshot",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto: The Trilogy – The Definitive Edition",
+    "slug": "grand-theft-auto-the-trilogy-definitive-edition",
+    "year": 2021,
+    "setting": "Liberty City, Vice City and San Andreas",
+    "genre": "Remastered collection",
+    "description": "A remastered collection of Grand Theft Auto III, Vice City, and San Andreas. Individual game pages remain available in this directory.",
+    "platforms": [
+      "Windows PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X|S",
+      "Nintendo Switch",
+      "Mobile"
+    ],
+    "platform_slugs": [
+      "pc",
+      "ps4",
+      "ps5",
+      "xboxone",
+      "xbox",
+      "switch",
+      "ios",
+      "android"
+    ],
+    "catalog_note": "Collection entry; included editions and availability vary by platform.",
+    "cover_path": null,
+    "is_upcoming": false,
+    "entry_type": "collection",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-the-trilogy-definitive-edition.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-trilogy-definitive-collage.svg",
+    "game_image_type": "gameplay-collage",
+    "game_image_rights_status": "pending-written-permission"
+  },
+  {
+    "title": "Grand Theft Auto VI",
+    "slug": "grand-theft-auto-vi",
+    "year": 2026,
+    "setting": "State of Leonida and Vice City",
+    "genre": "Upcoming action adventure",
+    "description": "The next Grand Theft Auto entry returns to modern-day Vice City and the state of Leonida. Release information can change; check Rockstar's official site for the latest.",
+    "platforms": [
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "platform_slugs": [
+      "ps5",
+      "xbox"
+    ],
+    "catalog_note": "Officially announced for PlayStation 5 and Xbox Series X|S; listed as upcoming as of October 2026.",
+    "cover_path": "/assets/games/gta-vi-rockstar-cover.jpg",
+    "is_upcoming": true,
+    "release_date": "2026-11-19",
+    "entry_type": "upcoming game",
+    "franchise": "grand-theft-auto",
+    "artwork_path": "/assets/games/grand-theft-auto-vi.svg",
+    "artwork_type": "original-gamevault",
+    "game_image_path": "/assets/games/gta-vi-rockstar-cover.jpg",
+    "game_image_type": "official-cover-art",
+    "game_image_rights_status": "pending-written-permission"
+  }
+]

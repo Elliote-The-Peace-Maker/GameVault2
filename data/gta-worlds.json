@@ -1,0 +1,77 @@
+[
+  {
+    "slug": "liberty-city",
+    "name": "Liberty City",
+    "era": "1997–2009",
+    "games": [
+      "grand-theft-auto",
+      "grand-theft-auto-iii",
+      "grand-theft-auto-advance",
+      "grand-theft-auto-liberty-city-stories",
+      "grand-theft-auto-chinatown-wars",
+      "grand-theft-auto-iv",
+      "grand-theft-auto-iv-the-lost-and-damned",
+      "grand-theft-auto-the-ballad-of-gay-tony",
+      "grand-theft-auto-episodes-from-liberty-city"
+    ],
+    "description": "A recurring city that shifts from early top-down streets to the 3D-era island layout and the modern Liberty City of Grand Theft Auto IV.",
+    "map_note": "World layouts differ across titles and eras."
+  },
+  {
+    "slug": "vice-city",
+    "name": "Vice City",
+    "era": "1984 · 1986 · modern day",
+    "games": [
+      "grand-theft-auto",
+      "grand-theft-auto-vice-city",
+      "grand-theft-auto-vice-city-stories",
+      "grand-theft-auto-vi"
+    ],
+    "description": "The series’ neon coastal city appears in multiple eras, with a modern-day return in Grand Theft Auto VI.",
+    "map_note": "Vice City in each game is its own world layout; this guide does not reproduce official in-game maps."
+  },
+  {
+    "slug": "san-andreas",
+    "name": "San Andreas",
+    "era": "1992 · 2013",
+    "games": [
+      "grand-theft-auto",
+      "grand-theft-auto-san-andreas",
+      "grand-theft-auto-v",
+      "grand-theft-auto-online"
+    ],
+    "description": "The name spans different game worlds: the 1992 state in San Andreas and the later Los Santos and Blaine County setting in Grand Theft Auto V.",
+    "map_note": "Locations and boundaries are different between games."
+  },
+  {
+    "slug": "london",
+    "name": "London",
+    "era": "1961 · 1969",
+    "games": [
+      "grand-theft-auto-london-1961",
+      "grand-theft-auto-london-1969"
+    ],
+    "description": "The two London expansions move the series to a 1960s setting and a distinct top-down city layout.",
+    "map_note": "A community reference to the two original expansions."
+  },
+  {
+    "slug": "anywhere-city",
+    "name": "Anywhere City",
+    "era": "1999",
+    "games": [
+      "grand-theft-auto-2"
+    ],
+    "description": "The setting for Grand Theft Auto 2, divided into distinct districts and presented from a top-down perspective.",
+    "map_note": "A community reference, not an official interactive map."
+  },
+  {
+    "slug": "leonida",
+    "name": "Leonida",
+    "era": "modern day · upcoming",
+    "games": [
+      "grand-theft-auto-vi"
+    ],
+    "description": "The announced setting for Grand Theft Auto VI, including a return to Vice City and locations across the state.",
+    "map_note": "Official game details may change before release; consult Rockstar for current information."
+  }
+]

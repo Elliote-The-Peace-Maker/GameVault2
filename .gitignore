@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.npm-cache/
+.env
+.env.local
+.env.*.local
+.supabase/
+
+build-check/
+
+.supabase-cli-home/
+*.log
+__pycache__/
+*.py[cod]
+supabase/.temp/

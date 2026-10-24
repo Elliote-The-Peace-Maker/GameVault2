@@ -1,0 +1,11 @@
+project_id = "gamevault"
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql"]
+
+[functions.delete-account]
+verify_jwt = true
+
+[functions.vexra-chat]
+verify_jwt = true

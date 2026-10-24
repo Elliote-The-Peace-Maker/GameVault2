@@ -1,0 +1,1234 @@
+[
+  {
+    "name": "1",
+    "path": "1.jpg",
+    "src": "/assets/supplied/1.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Supplied visual for the media gallery and game page atmosphere; not a real account or official cover."
+  },
+  {
+    "name": "2",
+    "path": "2.jpg",
+    "src": "/assets/supplied/2.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Supplied visual for the media gallery and game page atmosphere; not a real account or official cover."
+  },
+  {
+    "name": "3",
+    "path": "3.jpg",
+    "src": "/assets/supplied/3.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Supplied visual for the media gallery and game page atmosphere; not a real account or official cover."
+  },
+  {
+    "name": "4",
+    "path": "4.jpg",
+    "src": "/assets/supplied/4.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Supplied visual for the media gallery and game page atmosphere; not a real account or official cover."
+  },
+  {
+    "name": "5",
+    "path": "5.jpg",
+    "src": "/assets/supplied/5.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Supplied visual for the media gallery and game page atmosphere; not a real account or official cover."
+  },
+  {
+    "name": "about_img_1",
+    "path": "about_img_1.png",
+    "src": "/assets/supplied/about_img_1.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "about_img",
+    "path": "about_img.png",
+    "src": "/assets/supplied/about_img.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "about_shape",
+    "path": "about_shape.png",
+    "src": "/assets/supplied/about_shape.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "add",
+    "path": "add.jpg",
+    "src": "/assets/supplied/add.jpg",
+    "type": "jpg",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "arrow-down-color",
+    "path": "arrow-down-color.png",
+    "src": "/assets/supplied/arrow-down-color.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "arrow-down",
+    "path": "arrow-down.png",
+    "src": "/assets/supplied/arrow-down.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "attachment",
+    "path": "attachment.jpg",
+    "src": "/assets/supplied/attachment.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Supplied visual for the media gallery and game page atmosphere; not a real account or official cover."
+  },
+  {
+    "name": "author",
+    "path": "author.jpg",
+    "src": "/assets/supplied/author.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Supplied visual for the media gallery and game page atmosphere; not a real account or official cover."
+  },
+  {
+    "name": "banner_bg",
+    "path": "banner_bg.png",
+    "src": "/assets/supplied/banner_bg.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "banner_img",
+    "path": "banner_img.png",
+    "src": "/assets/supplied/banner_img.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Use as a gaming/community mood image; not an official game cover."
+  },
+  {
+    "name": "body_bg",
+    "path": "body_bg.png",
+    "src": "/assets/supplied/body_bg.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "breadcrumb",
+    "path": "breadcrumb.png",
+    "src": "/assets/supplied/breadcrumb.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "community-bg",
+    "path": "community-bg.jpg",
+    "src": "/assets/supplied/community-bg.jpg",
+    "type": "jpg",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "double-arrow",
+    "path": "double-arrow.png",
+    "src": "/assets/supplied/double-arrow.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "event_bg",
+    "path": "event_bg.png",
+    "src": "/assets/supplied/event_bg.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "favicon",
+    "path": "favicon.png",
+    "src": "/assets/supplied/favicon.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "featured-bg",
+    "path": "featured-bg.jpg",
+    "src": "/assets/supplied/featured-bg.jpg",
+    "type": "jpg",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "footer_bg",
+    "path": "footer_bg.png",
+    "src": "/assets/supplied/footer_bg.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "footer-right-pic",
+    "path": "footer-right-pic.png",
+    "src": "/assets/supplied/footer-right-pic.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "footer-top-bg",
+    "path": "footer-top-bg.png",
+    "src": "/assets/supplied/footer-top-bg.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "heart",
+    "path": "heart.png",
+    "src": "/assets/supplied/heart.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "latest_war_img_1",
+    "path": "latest_war_img_1.png",
+    "src": "/assets/supplied/latest_war_img_1.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Use as a gaming/community mood image; not an official game cover."
+  },
+  {
+    "name": "latest_war_img_2",
+    "path": "latest_war_img_2.png",
+    "src": "/assets/supplied/latest_war_img_2.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Use as a gaming/community mood image; not an official game cover."
+  },
+  {
+    "name": "latest_war_img",
+    "path": "latest_war_img.png",
+    "src": "/assets/supplied/latest_war_img.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Use as a gaming/community mood image; not an official game cover."
+  },
+  {
+    "name": "left_sharp",
+    "path": "left_sharp.png",
+    "src": "/assets/supplied/left_sharp.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "live_stareams_bg",
+    "path": "live_stareams_bg.png",
+    "src": "/assets/supplied/live_stareams_bg.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "live_streams_1",
+    "path": "live_streams_1.png",
+    "src": "/assets/supplied/live_streams_1.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Use as a gaming/community mood image; not an official game cover."
+  },
+  {
+    "name": "live_streams_2",
+    "path": "live_streams_2.png",
+    "src": "/assets/supplied/live_streams_2.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Use as a gaming/community mood image; not an official game cover."
+  },
+  {
+    "name": "location",
+    "path": "location.png",
+    "src": "/assets/supplied/location.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "logo_bg",
+    "path": "logo_bg.png",
+    "src": "/assets/supplied/logo_bg.png",
+    "type": "png",
+    "category": "Other supplied brand marks",
+    "purpose": "Preserved as a supplied asset; not a GameVault logo or endorsement."
+  },
+  {
+    "name": "logo",
+    "path": "logo.png",
+    "src": "/assets/supplied/logo.png",
+    "type": "png",
+    "category": "Other supplied brand marks",
+    "purpose": "Preserved as a supplied asset; not a GameVault logo or endorsement."
+  },
+  {
+    "name": "mail",
+    "path": "mail.png",
+    "src": "/assets/supplied/mail.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "phone",
+    "path": "phone.png",
+    "src": "/assets/supplied/phone.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "Portfolio",
+    "path": "Portfolio.png",
+    "src": "/assets/supplied/Portfolio.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "pricing_bg",
+    "path": "pricing_bg.png",
+    "src": "/assets/supplied/pricing_bg.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "promo-bg",
+    "path": "promo-bg.jpg",
+    "src": "/assets/supplied/promo-bg.jpg",
+    "type": "jpg",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "recent-game-bg",
+    "path": "recent-game-bg.png",
+    "src": "/assets/supplied/recent-game-bg.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "review-bg-2",
+    "path": "review-bg-2.jpg",
+    "src": "/assets/supplied/review-bg-2.jpg",
+    "type": "jpg",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "review-bg",
+    "path": "review-bg.png",
+    "src": "/assets/supplied/review-bg.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "Shape_text",
+    "path": "Shape_text.png",
+    "src": "/assets/supplied/Shape_text.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "slider-1",
+    "path": "slider-1.jpg",
+    "src": "/assets/supplied/slider-1.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Use as a gaming/community mood image; not an official game cover."
+  },
+  {
+    "name": "slider-2",
+    "path": "slider-2.jpg",
+    "src": "/assets/supplied/slider-2.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Use as a gaming/community mood image; not an official game cover."
+  },
+  {
+    "name": "slider-bg-1",
+    "path": "slider-bg-1.jpg",
+    "src": "/assets/supplied/slider-bg-1.jpg",
+    "type": "jpg",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "slider-bg-2",
+    "path": "slider-bg-2.jpg",
+    "src": "/assets/supplied/slider-bg-2.jpg",
+    "type": "jpg",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "solid-right-arrow",
+    "path": "solid-right-arrow.png",
+    "src": "/assets/supplied/solid-right-arrow.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "star",
+    "path": "star.png",
+    "src": "/assets/supplied/star.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "war_logo_1",
+    "path": "war_logo_1.png",
+    "src": "/assets/supplied/war_logo_1.png",
+    "type": "png",
+    "category": "Other supplied brand marks",
+    "purpose": "Preserved as a supplied asset; not a GameVault logo or endorsement."
+  },
+  {
+    "name": "war_logo_2",
+    "path": "war_logo_2.png",
+    "src": "/assets/supplied/war_logo_2.png",
+    "type": "png",
+    "category": "Other supplied brand marks",
+    "purpose": "Preserved as a supplied asset; not a GameVault logo or endorsement."
+  },
+  {
+    "name": "shape-1",
+    "path": "animate_icon/shape-1.png",
+    "src": "/assets/supplied/animate_icon/shape-1.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "shape-10",
+    "path": "animate_icon/shape-10.png",
+    "src": "/assets/supplied/animate_icon/shape-10.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "Shape-13",
+    "path": "animate_icon/Shape-13.png",
+    "src": "/assets/supplied/animate_icon/Shape-13.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "Shape-14",
+    "path": "animate_icon/Shape-14.png",
+    "src": "/assets/supplied/animate_icon/Shape-14.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "Shape-16",
+    "path": "animate_icon/Shape-16.png",
+    "src": "/assets/supplied/animate_icon/Shape-16.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "shape-3",
+    "path": "animate_icon/shape-3.png",
+    "src": "/assets/supplied/animate_icon/shape-3.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "shape-7",
+    "path": "animate_icon/shape-7.png",
+    "src": "/assets/supplied/animate_icon/shape-7.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "shape-8",
+    "path": "animate_icon/shape-8.png",
+    "src": "/assets/supplied/animate_icon/shape-8.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "shape",
+    "path": "animate_icon/shape.png",
+    "src": "/assets/supplied/animate_icon/shape.png",
+    "type": "png",
+    "category": "Decorative interface artwork",
+    "purpose": "Use as page decoration, background, or visual flourish."
+  },
+  {
+    "name": "1",
+    "path": "authors/1.jpg",
+    "src": "/assets/supplied/authors/1.jpg",
+    "type": "jpg",
+    "category": "Portraits",
+    "purpose": "Optional avatar preset; this is an image asset, not a GameVault account."
+  },
+  {
+    "name": "2",
+    "path": "authors/2.jpg",
+    "src": "/assets/supplied/authors/2.jpg",
+    "type": "jpg",
+    "category": "Portraits",
+    "purpose": "Optional avatar preset; this is an image asset, not a GameVault account."
+  },
+  {
+    "name": "3",
+    "path": "authors/3.jpg",
+    "src": "/assets/supplied/authors/3.jpg",
+    "type": "jpg",
+    "category": "Portraits",
+    "purpose": "Optional avatar preset; this is an image asset, not a GameVault account."
+  },
+  {
+    "name": "4",
+    "path": "authors/4.jpg",
+    "src": "/assets/supplied/authors/4.jpg",
+    "type": "jpg",
+    "category": "Portraits",
+    "purpose": "Optional avatar preset; this is an image asset, not a GameVault account."
+  },
+  {
+    "name": "5",
+    "path": "authors/5.jpg",
+    "src": "/assets/supplied/authors/5.jpg",
+    "type": "jpg",
+    "category": "Portraits",
+    "purpose": "Optional avatar preset; this is an image asset, not a GameVault account."
+  },
+  {
+    "name": "6",
+    "path": "authors/6.jpg",
+    "src": "/assets/supplied/authors/6.jpg",
+    "type": "jpg",
+    "category": "Portraits",
+    "purpose": "Optional avatar preset; this is an image asset, not a GameVault account."
+  },
+  {
+    "name": "7",
+    "path": "authors/7.jpg",
+    "src": "/assets/supplied/authors/7.jpg",
+    "type": "jpg",
+    "category": "Portraits",
+    "purpose": "Optional avatar preset; this is an image asset, not a GameVault account."
+  },
+  {
+    "name": "8",
+    "path": "authors/8.jpg",
+    "src": "/assets/supplied/authors/8.jpg",
+    "type": "jpg",
+    "category": "Portraits",
+    "purpose": "Optional avatar preset; this is an image asset, not a GameVault account."
+  },
+  {
+    "name": "3",
+    "path": "b/3.jpg",
+    "src": "/assets/supplied/b/3.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "4",
+    "path": "b/4.jpg",
+    "src": "/assets/supplied/b/4.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "5",
+    "path": "b/5.jpg",
+    "src": "/assets/supplied/b/5.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "comment_1",
+    "path": "comment/comment_1.png",
+    "src": "/assets/supplied/comment/comment_1.png",
+    "type": "png",
+    "category": "Portraits",
+    "purpose": "Optional avatar preset; this is an image asset, not a GameVault account."
+  },
+  {
+    "name": "comment_2",
+    "path": "comment/comment_2.png",
+    "src": "/assets/supplied/comment/comment_2.png",
+    "type": "png",
+    "category": "Portraits",
+    "purpose": "Optional avatar preset; this is an image asset, not a GameVault account."
+  },
+  {
+    "name": "comment_3",
+    "path": "comment/comment_3.png",
+    "src": "/assets/supplied/comment/comment_3.png",
+    "type": "png",
+    "category": "Portraits",
+    "purpose": "Optional avatar preset; this is an image asset, not a GameVault account."
+  },
+  {
+    "name": "a",
+    "path": "elements/a.jpg",
+    "src": "/assets/supplied/elements/a.jpg",
+    "type": "jpg",
+    "category": "Lifestyle photography",
+    "purpose": "Editorial or page decoration only; not a GameVault member, post, or game cover."
+  },
+  {
+    "name": "a2",
+    "path": "elements/a2.jpg",
+    "src": "/assets/supplied/elements/a2.jpg",
+    "type": "jpg",
+    "category": "Lifestyle photography",
+    "purpose": "Editorial or page decoration only; not a GameVault member, post, or game cover."
+  },
+  {
+    "name": "d",
+    "path": "elements/d.jpg",
+    "src": "/assets/supplied/elements/d.jpg",
+    "type": "jpg",
+    "category": "Lifestyle photography",
+    "purpose": "Editorial or page decoration only; not a GameVault member, post, or game cover."
+  },
+  {
+    "name": "disabled-check",
+    "path": "elements/disabled-check.png",
+    "src": "/assets/supplied/elements/disabled-check.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "disabled-radio",
+    "path": "elements/disabled-radio.png",
+    "src": "/assets/supplied/elements/disabled-radio.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "f1",
+    "path": "elements/f1.jpg",
+    "src": "/assets/supplied/elements/f1.jpg",
+    "type": "jpg",
+    "category": "Country flag graphics",
+    "purpose": "Use as country or locale decoration only; not a user avatar or game cover."
+  },
+  {
+    "name": "f2",
+    "path": "elements/f2.jpg",
+    "src": "/assets/supplied/elements/f2.jpg",
+    "type": "jpg",
+    "category": "Country flag graphics",
+    "purpose": "Use as country or locale decoration only; not a user avatar or game cover."
+  },
+  {
+    "name": "f3",
+    "path": "elements/f3.jpg",
+    "src": "/assets/supplied/elements/f3.jpg",
+    "type": "jpg",
+    "category": "Country flag graphics",
+    "purpose": "Use as country or locale decoration only; not a user avatar or game cover."
+  },
+  {
+    "name": "f4",
+    "path": "elements/f4.jpg",
+    "src": "/assets/supplied/elements/f4.jpg",
+    "type": "jpg",
+    "category": "Country flag graphics",
+    "purpose": "Use as country or locale decoration only; not a user avatar or game cover."
+  },
+  {
+    "name": "f5",
+    "path": "elements/f5.jpg",
+    "src": "/assets/supplied/elements/f5.jpg",
+    "type": "jpg",
+    "category": "Country flag graphics",
+    "purpose": "Use as country or locale decoration only; not a user avatar or game cover."
+  },
+  {
+    "name": "f6",
+    "path": "elements/f6.jpg",
+    "src": "/assets/supplied/elements/f6.jpg",
+    "type": "jpg",
+    "category": "Country flag graphics",
+    "purpose": "Use as country or locale decoration only; not a user avatar or game cover."
+  },
+  {
+    "name": "f7",
+    "path": "elements/f7.jpg",
+    "src": "/assets/supplied/elements/f7.jpg",
+    "type": "jpg",
+    "category": "Country flag graphics",
+    "purpose": "Use as country or locale decoration only; not a user avatar or game cover."
+  },
+  {
+    "name": "f8",
+    "path": "elements/f8.jpg",
+    "src": "/assets/supplied/elements/f8.jpg",
+    "type": "jpg",
+    "category": "Country flag graphics",
+    "purpose": "Use as country or locale decoration only; not a user avatar or game cover."
+  },
+  {
+    "name": "g1",
+    "path": "elements/g1.jpg",
+    "src": "/assets/supplied/elements/g1.jpg",
+    "type": "jpg",
+    "category": "Lifestyle photography",
+    "purpose": "Editorial or page decoration only; not a GameVault member, post, or game cover."
+  },
+  {
+    "name": "g2",
+    "path": "elements/g2.jpg",
+    "src": "/assets/supplied/elements/g2.jpg",
+    "type": "jpg",
+    "category": "Lifestyle photography",
+    "purpose": "Editorial or page decoration only; not a GameVault member, post, or game cover."
+  },
+  {
+    "name": "g3",
+    "path": "elements/g3.jpg",
+    "src": "/assets/supplied/elements/g3.jpg",
+    "type": "jpg",
+    "category": "Lifestyle photography",
+    "purpose": "Editorial or page decoration only; not a GameVault member, post, or game cover."
+  },
+  {
+    "name": "g4",
+    "path": "elements/g4.jpg",
+    "src": "/assets/supplied/elements/g4.jpg",
+    "type": "jpg",
+    "category": "Lifestyle photography",
+    "purpose": "Editorial or page decoration only; not a GameVault member, post, or game cover."
+  },
+  {
+    "name": "g5",
+    "path": "elements/g5.jpg",
+    "src": "/assets/supplied/elements/g5.jpg",
+    "type": "jpg",
+    "category": "Lifestyle photography",
+    "purpose": "Editorial or page decoration only; not a GameVault member, post, or game cover."
+  },
+  {
+    "name": "g6",
+    "path": "elements/g6.jpg",
+    "src": "/assets/supplied/elements/g6.jpg",
+    "type": "jpg",
+    "category": "Lifestyle photography",
+    "purpose": "Editorial or page decoration only; not a GameVault member, post, or game cover."
+  },
+  {
+    "name": "g7",
+    "path": "elements/g7.jpg",
+    "src": "/assets/supplied/elements/g7.jpg",
+    "type": "jpg",
+    "category": "Lifestyle photography",
+    "purpose": "Editorial or page decoration only; not a GameVault member, post, or game cover."
+  },
+  {
+    "name": "g8",
+    "path": "elements/g8.jpg",
+    "src": "/assets/supplied/elements/g8.jpg",
+    "type": "jpg",
+    "category": "Lifestyle photography",
+    "purpose": "Editorial or page decoration only; not a GameVault member, post, or game cover."
+  },
+  {
+    "name": "primary-check",
+    "path": "elements/primary-check.png",
+    "src": "/assets/supplied/elements/primary-check.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "primary-radio",
+    "path": "elements/primary-radio.png",
+    "src": "/assets/supplied/elements/primary-radio.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "success-check",
+    "path": "elements/success-check.png",
+    "src": "/assets/supplied/elements/success-check.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "success-radio",
+    "path": "elements/success-radio.png",
+    "src": "/assets/supplied/elements/success-radio.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "gallery_item_1",
+    "path": "gallery/gallery_item_1.png",
+    "src": "/assets/supplied/gallery/gallery_item_1.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "gallery_item_2",
+    "path": "gallery/gallery_item_2.png",
+    "src": "/assets/supplied/gallery/gallery_item_2.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "gallery_item_3",
+    "path": "gallery/gallery_item_3.png",
+    "src": "/assets/supplied/gallery/gallery_item_3.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "gallery_item_4",
+    "path": "gallery/gallery_item_4.png",
+    "src": "/assets/supplied/gallery/gallery_item_4.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "gallery_item_5",
+    "path": "gallery/gallery_item_5.png",
+    "src": "/assets/supplied/gallery/gallery_item_5.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "gallery_item_6",
+    "path": "gallery/gallery_item_6.png",
+    "src": "/assets/supplied/gallery/gallery_item_6.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "gallery_item_7",
+    "path": "gallery/gallery_item_7.png",
+    "src": "/assets/supplied/gallery/gallery_item_7.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "gallery_item_71",
+    "path": "gallery/gallery_item_71.png",
+    "src": "/assets/supplied/gallery/gallery_item_71.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "gallery_item_8",
+    "path": "gallery/gallery_item_8.png",
+    "src": "/assets/supplied/gallery/gallery_item_8.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "gallery_item",
+    "path": "gallery/gallery_item.png",
+    "src": "/assets/supplied/gallery/gallery_item.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "color_star",
+    "path": "icon/color_star.svg",
+    "src": "/assets/supplied/icon/color_star.svg",
+    "type": "svg",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "feature_icon_1",
+    "path": "icon/feature_icon_1.png",
+    "src": "/assets/supplied/icon/feature_icon_1.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "feature_icon_1",
+    "path": "icon/feature_icon_1.svg",
+    "src": "/assets/supplied/icon/feature_icon_1.svg",
+    "type": "svg",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "feature_icon_2",
+    "path": "icon/feature_icon_2.png",
+    "src": "/assets/supplied/icon/feature_icon_2.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "feature_icon_2",
+    "path": "icon/feature_icon_2.svg",
+    "src": "/assets/supplied/icon/feature_icon_2.svg",
+    "type": "svg",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "feature_icon_3",
+    "path": "icon/feature_icon_3.png",
+    "src": "/assets/supplied/icon/feature_icon_3.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "feature_icon_3",
+    "path": "icon/feature_icon_3.svg",
+    "src": "/assets/supplied/icon/feature_icon_3.svg",
+    "type": "svg",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "left",
+    "path": "icon/left.svg",
+    "src": "/assets/supplied/icon/left.svg",
+    "type": "svg",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "play",
+    "path": "icon/play.svg",
+    "src": "/assets/supplied/icon/play.svg",
+    "type": "svg",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "quate",
+    "path": "icon/quate.svg",
+    "src": "/assets/supplied/icon/quate.svg",
+    "type": "svg",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "right-arrow",
+    "path": "icon/right-arrow.svg",
+    "src": "/assets/supplied/icon/right-arrow.svg",
+    "type": "svg",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "right",
+    "path": "icon/right.svg",
+    "src": "/assets/supplied/icon/right.svg",
+    "type": "svg",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "star",
+    "path": "icon/star.svg",
+    "src": "/assets/supplied/icon/star.svg",
+    "type": "svg",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "1",
+    "path": "k/1.jpg",
+    "src": "/assets/supplied/k/1.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "2",
+    "path": "k/2.jpg",
+    "src": "/assets/supplied/k/2.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "3",
+    "path": "k/3.jpg",
+    "src": "/assets/supplied/k/3.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "4",
+    "path": "k/4.jpg",
+    "src": "/assets/supplied/k/4.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "1",
+    "path": "m/1.jpg",
+    "src": "/assets/supplied/m/1.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "2",
+    "path": "m/2.jpg",
+    "src": "/assets/supplied/m/2.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "3",
+    "path": "m/3.jpg",
+    "src": "/assets/supplied/m/3.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "4",
+    "path": "m/4.jpg",
+    "src": "/assets/supplied/m/4.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "1",
+    "path": "n/1.jpg",
+    "src": "/assets/supplied/n/1.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "2",
+    "path": "n/2.jpg",
+    "src": "/assets/supplied/n/2.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "3",
+    "path": "n/3.jpg",
+    "src": "/assets/supplied/n/3.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "4",
+    "path": "n/4.jpg",
+    "src": "/assets/supplied/n/4.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "5",
+    "path": "n/5.jpg",
+    "src": "/assets/supplied/n/5.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "6",
+    "path": "n/6.jpg",
+    "src": "/assets/supplied/n/6.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "7",
+    "path": "n/7.jpg",
+    "src": "/assets/supplied/n/7.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "8",
+    "path": "n/8.jpg",
+    "src": "/assets/supplied/n/8.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "9",
+    "path": "n/9.jpg",
+    "src": "/assets/supplied/n/9.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "big",
+    "path": "n/big.jpg",
+    "src": "/assets/supplied/n/big.jpg",
+    "type": "jpg",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "next",
+    "path": "post/next.png",
+    "src": "/assets/supplied/post/next.png",
+    "type": "png",
+    "category": "Interface icons",
+    "purpose": "Use for interface controls or decorative UI where the symbol matches."
+  },
+  {
+    "name": "post_1",
+    "path": "post/post_1.png",
+    "src": "/assets/supplied/post/post_1.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "post_10",
+    "path": "post/post_10.png",
+    "src": "/assets/supplied/post/post_10.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "post_2",
+    "path": "post/post_2.png",
+    "src": "/assets/supplied/post/post_2.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "post_3",
+    "path": "post/post_3.png",
+    "src": "/assets/supplied/post/post_3.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "post_4",
+    "path": "post/post_4.png",
+    "src": "/assets/supplied/post/post_4.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "post_5",
+    "path": "post/post_5.png",
+    "src": "/assets/supplied/post/post_5.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "post_6",
+    "path": "post/post_6.png",
+    "src": "/assets/supplied/post/post_6.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "post_7",
+    "path": "post/post_7.png",
+    "src": "/assets/supplied/post/post_7.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "post_8",
+    "path": "post/post_8.png",
+    "src": "/assets/supplied/post/post_8.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "post_9",
+    "path": "post/post_9.png",
+    "src": "/assets/supplied/post/post_9.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  },
+  {
+    "name": "preview",
+    "path": "post/preview.png",
+    "src": "/assets/supplied/post/preview.png",
+    "type": "png",
+    "category": "Gaming and community artwork",
+    "purpose": "Gallery artwork or mood image. Not an official game cover and not evidence of an integration."
+  }
+]

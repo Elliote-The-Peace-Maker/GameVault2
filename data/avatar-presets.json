@@ -1,0 +1,62 @@
+[
+  {
+    "id": "coast-runner",
+    "label": "Vice City Wheelman",
+    "src": "/assets/avatars/coast-runner.svg"
+  },
+  {
+    "id": "neon-raider",
+    "label": "Liberty City Fixer",
+    "src": "/assets/avatars/neon-raider.svg"
+  },
+  {
+    "id": "night-drive",
+    "label": "San Andreas Street Racer",
+    "src": "/assets/avatars/night-drive.svg"
+  },
+  {
+    "id": "vice-captain",
+    "label": "Los Santos Mechanic",
+    "src": "/assets/avatars/vice-captain.svg"
+  },
+  {
+    "id": "sunset-scout",
+    "label": "After Hours DJ",
+    "src": "/assets/avatars/sunset-scout.svg"
+  },
+  {
+    "id": "city-ghost",
+    "label": "Liberty City Photographer",
+    "src": "/assets/avatars/city-ghost.svg"
+  },
+  {
+    "id": "palm-striker",
+    "label": "Chinatown Courier",
+    "src": "/assets/avatars/palm-striker.svg"
+  },
+  {
+    "id": "after-hours",
+    "label": "Leonida Coast Runner",
+    "src": "/assets/avatars/after-hours.svg"
+  },
+  {
+    "id": "hotline",
+    "label": "Docks Outlaw Rider",
+    "src": "/assets/avatars/hotline.svg"
+  },
+  {
+    "id": "ocean-signal",
+    "label": "Vice City Radio Host",
+    "src": "/assets/avatars/ocean-signal.svg"
+  },
+  {
+    "id": "district-one",
+    "label": "Anywhere City Scout",
+    "src": "/assets/avatars/district-one.svg"
+  },
+  {
+    "id": "sunset-syndicate",
+    "label": "Los Santos Getaway Driver",
+    "src": "/assets/avatars/sunset-syndicate.svg"
+  }
+]

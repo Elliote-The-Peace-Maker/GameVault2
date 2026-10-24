@@ -1,0 +1,42 @@
+{
+  "assets": [
+    {
+      "id": "gta-vi-cover-landscape",
+      "path": "/assets/games/gta-vi-rockstar-cover.jpg",
+      "source_url": "https://www.rockstargames.com/VI/_next/static/media/Official_Cover_Art_landscape.12.uu2irr.2_a.jpg?akim=1&imdensity=1&imwidth=1600",
+      "source_page": "https://www.rockstargames.com/VI/media",
+      "rights_status": "pending-written-permission",
+      "prototype_only": true,
+      "public_release_allowed": false
+    },
+    {
+      "id": "gamevault-original-gta-catalog-art",
+      "path_pattern": "/assets/games/{gta-slug}.svg",
+      "count": 19,
+      "source_page": null,
+      "rights_status": "original-gamevault-art",
+      "prototype_only": false,
+      "public_release_allowed": true,
+      "description": "Locally generated original city-poster illustrations used for GTA game catalog entries without official Rockstar cover art. They do not depict official characters, logos, screenshots, or cover artwork."
+    },
+    {
+      "id": "gamevault-player-avatar-presets",
+      "path_pattern": "/assets/avatars/{preset-id}.svg",
+      "count": 12,
+      "source_page": null,
+      "rights_status": "original-gamevault-art",
+      "prototype_only": false,
+      "public_release_allowed": true,
+      "description": "Original stylized player avatar illustrations. These are optional account profile images, not sample users or portraits of real people."
+    },
+    {
+      "id": "gta-title-real-game-imagery",
+      "source_manifest": "/data/game-image-assets.json",
+      "count": 19,
+      "rights_status": "pending-written-permission",
+      "prototype_only": true,
+      "public_release_allowed": false,
+      "description": "Locally cached GTA gameplay screenshots and the GTA VI cover, with source pages recorded per title. These are real Rockstar game visuals; local use in this prototype does not grant GameVault publication rights."
+    }
+  ]
+}

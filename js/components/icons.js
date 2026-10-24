@@ -1,7 +1,7 @@
 const names = new Set([
   'home','explore','communities','games','library','creator','media','news','streams',
   'messages','notifications','challenges','history','account','settings','help','moderation',
-  'maps','subscription','search','menu','plus','close','chevron-down','arrow-right','filter','grid','list','edit',
+  'maps','subscription','search','menu','plus','close','chevron-down','arrow-right','arrow-left','play','pause','sparkles','trophy','filter','grid','list','edit',
   'trash','upload','download','check','external-link','more','send','link','share','copy',
   'heart','comment','reply','flag','follow','invite','eye','lock','verified','status','alert',
   'discord','twitch','youtube','instagram','x'
@@ -10,7 +10,7 @@ const aliases = {
   '⌂':'home','⌕':'search','◉':'communities','▣':'games','▤':'library','✦':'creator',
   '▧':'media','♜':'challenges','✉':'messages','♧':'notifications','◷':'history','◎':'account',
   '⚙':'settings','?':'help','⚑':'moderation','◈':'status','●':'status','○':'eye','✎':'edit',
-  '♡':'heart','♥':'heart','☰':'menu','↗':'external-link','→':'arrow-right','←':'arrow-right'
+  '♡':'heart','♥':'heart','☰':'menu','↗':'external-link','→':'arrow-right','←':'arrow-left'
 };
 export function icon(name, className = '') {
   const key = aliases[name] || name;

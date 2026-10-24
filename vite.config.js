@@ -20,6 +20,9 @@ function collectHtml(directory) {
 const pages = collectHtml(root);
 
 export default defineConfig({
+  // Keep local development at the origin root. GitHub Pages project sites live
+  // below /<repository>/, so CI supplies the matching base path for production.
+  base: process.env.GAMEVAULT_PAGES_BASE || '/',
   appType: 'mpa',
   optimizeDeps: {
     // Keep Supabase's ESM packages native in dev mode. This avoids Vite's

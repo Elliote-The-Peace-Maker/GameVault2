@@ -19,6 +19,10 @@ npm run dev
 
 Use `npm run build` to produce a production build in `dist/`. The HTML pages are separate URLs; open `/pages/home.html` for the community feed during local development.
 
+## GitHub Pages
+
+The workflow in `.github/workflows/pages.yml` builds the Vite site and deploys `dist/` whenever a commit reaches `main`. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**. The workflow builds for the repository path `/GameVault2/`, so the project site is served at `https://elliote-the-peace-maker.github.io/GameVault2/` after its first successful deployment.
+
 ## Supabase
 
 The versioned schema is in `supabase/migrations/`, catalog seed data is in `supabase/seed.sql`, and permission checks are in `supabase/tests/rls.sql`. Review migrations and the target project before applying them. Configure Auth providers and redirect URLs in the Supabase dashboard. Do not put secrets in browser code or commit `.env` files.

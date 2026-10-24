@@ -4,6 +4,7 @@ import { mountPage } from './runtime.js';
 import { escapeHTML, supabase, getOptionalUser } from '../services/supabase.js';
 import { setGameSelection } from '../services/data.js';
 import { icon } from '../components/icons.js';
+import { mountGameTracker } from './game-tracker.js';
 
 const slug = document.body.dataset.slug || location.pathname.split('/').filter(Boolean).at(-1);
 const localGame = catalog.find(function (game) { return game.slug === slug; });
@@ -66,6 +67,7 @@ mountPage({
       '<h2>' + escapeHTML(game.title) + '</h2><p>' + escapeHTML(game.description) + '</p>' + imageCredit +
       '<div class="row"><a class="btn btn-primary" href="/games/library/">Open my GTA library ' + icon('arrow-right') + '</a>' +
       '<a class="btn" href="/pages/maps.html">Explore this world ' + icon('maps') + '</a></div><small>Catalog reference · ' + escapeHTML(sourceLabel) + '</small></div></section>' +
+      '<div id="gv-game-tracker"></div>' +
       '<div class="split gv-game-detail-layout"><section class="surface surface-pad"><h2 class="section-title">Platforms & editions</h2>' +
       '<p class="muted tiny">' + escapeHTML(game.catalog_note || 'Platform availability varies by edition. Check the publisher for current details.') + '</p>' +
       '<div class="row">' + (game.platforms || []).map(function (platform) { return '<span class="pill">' + escapeHTML(platform) + '</span>'; }).join('') + '</div>' +
@@ -76,6 +78,8 @@ mountPage({
       '<button class="btn btn-primary" id="library-add" ' + (!configured || !game.id ? 'disabled' : '') + '>Add to GTA library</button>' +
       '<div class="divider"></div><a class="btn" href="/games/index.html">All GTA titles</a></aside></div>'
     );
+
+    await mountGameTracker(root.querySelector('#gv-game-tracker'), { game, configured });
 
     if (configured && game.id) {
       const communities = await supabase.from('communities')

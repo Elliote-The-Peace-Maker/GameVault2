@@ -1,6 +1,6 @@
 begin;
 create extension if not exists pgtap with schema extensions;
-select plan(42);
+select plan(51);
 
 -- Stable throwaway users are inserted as the local database owner. The auth
 -- trigger creates their private VEXRA profile/settings records.
@@ -13,6 +13,9 @@ on conflict (id) do nothing;
 insert into public.games (slug,title,genre,description,catalog_note,franchise)
 values ('rls-policy-fixture','RLS policy fixture','Test','Test-only database fixture.','Test fixture; not a game catalog seed.','grand-theft-auto')
 on conflict (slug) do nothing;
+insert into public.game_progress_entries(user_id,game_id,category,title,status)
+select '10000000-0000-4000-8000-000000000002',id,'story-missions','Account B private progress fixture','in_progress'
+from public.games where slug='rls-policy-fixture';
 insert into public.communities(slug,name,owner_id,visibility,membership_mode,game_id)
 select fixture.slug,fixture.name,'10000000-0000-4000-8000-000000000002','public',fixture.membership_mode,g.id
 from (values
@@ -146,7 +149,41 @@ select throws_ok(
 );
 reset role;
 
+set local role authenticated;
+select set_config('request.jwt.claim.sub','10000000-0000-4000-8000-000000000001',true);
+select lives_ok($$insert into public.game_progress_entries(user_id,game_id,category,title,status)
+  select '10000000-0000-4000-8000-000000000001',id,'story-missions','RLS private progress fixture','in_progress'
+  from public.games where slug='rls-policy-fixture'$$,'player can save their own game progress');
+select throws_ok(
+  $$insert into public.game_progress_entries(user_id,game_id,category,title)
+    select '10000000-0000-4000-8000-000000000002',id,'story-missions','Cross-account fixture'
+    from public.games where slug='rls-policy-fixture'$$,
+  '42501',null,'player cannot insert progress into another account'
+);
+select is((select count(*)::int from public.game_progress_entries where user_id='10000000-0000-4000-8000-000000000002'),0,'private progress from another account is hidden');
+select lives_ok($$update public.game_progress_entries set title='Cross-account overwrite' where user_id='10000000-0000-4000-8000-000000000002' and title='Account B private progress fixture'$$,'account A update cannot target account B progress');
+reset role;
+select is((select title from public.game_progress_entries where user_id='10000000-0000-4000-8000-000000000002'),'Account B private progress fixture','account A cannot alter account B progress');
+set local role authenticated;
+select set_config('request.jwt.claim.sub','10000000-0000-4000-8000-000000000001',true);
+select lives_ok($$insert into public.game_news(game_id,title,summary,source_label,source_url,created_by)
+  select id,'RLS news fixture','A moderator review test.','Rockstar Newswire','https://www.rockstargames.com/newswire','10000000-0000-4000-8000-000000000001'
+  from public.games where slug='rls-policy-fixture'$$,'signed-in player can submit a pending source link');
+reset role;
+set local role anon;
+select is((select count(*)::int from public.game_news where title='RLS news fixture'),0,'anonymous visitor cannot read a pending news submission');
+reset role;
+insert into public.user_roles(user_id,role) values ('10000000-0000-4000-8000-000000000001','moderator') on conflict do nothing;
+set local role authenticated;
+select set_config('request.jwt.claim.sub','10000000-0000-4000-8000-000000000001',true);
+select lives_ok($$update public.game_news set status='approved',reviewed_by='10000000-0000-4000-8000-000000000001',reviewed_at=now() where title='RLS news fixture'$$,'moderator can approve a submitted news link');
+reset role;
+set local role anon;
+select is((select count(*)::int from public.game_news where title='RLS news fixture' and status='approved'),1,'approved news is visible to anonymous visitors');
+reset role;
+
 delete from auth.users where id in ('10000000-0000-4000-8000-000000000001','10000000-0000-4000-8000-000000000002');
+delete from public.user_roles where user_id='10000000-0000-4000-8000-000000000001';
 delete from public.games where slug='rls-policy-fixture';
 select * from finish();
 rollback;

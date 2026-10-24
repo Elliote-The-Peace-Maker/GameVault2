@@ -19,6 +19,7 @@ const social = [
   ['messages', 'messages', 'Messages', '/pages/messages.html'],
   ['notifications', 'notifications', 'Notifications', '/pages/notifications.html'],
   ['history', 'history', 'Achievements & history', '/pages/history.html'],
+  ['news', 'news', 'News Feed', '/pages/news.html'],
 ];
 const account = [
   ['account', 'account', 'Account overview', '/pages/account.html'],
@@ -90,7 +91,7 @@ export function renderShell(page, title, description) {
       <section class="sidebar-player" id="sidebar-identity" aria-label="Player account"><div class="sidebar-player-loading">Loading player space…</div></section>
       <div class="nav-label">PLAY</div><nav class="nav-list" aria-label="Play">${[primary[0],primary[3],['library','library','My game library','/games/library/']].map(item => link(item, page)).join('')}</nav>
       <div class="nav-label">DISCOVER</div><nav class="nav-list" aria-label="Discover">${[primary[1],primary[2],primary[8]].map(item => link(item, page)).join('')}</nav>
-      <details class="nav-more" ${['streams','media','creators','messages','notifications','challenges','history'].includes(page) ? 'open' : ''}><summary>More features ${icon('chevron-down','nav-chevron')}</summary><nav class="nav-list" aria-label="More features">${[primary[6],primary[5],primary[4],social[0],social[1],primary[7],social[2]].map(item => link(item, page)).join('')}</nav></details>
+      <details class="nav-more" ${['streams','media','creators','messages','notifications','challenges','history','news'].includes(page) ? 'open' : ''}><summary>More features ${icon('chevron-down','nav-chevron')}</summary><nav class="nav-list" aria-label="More features">${[primary[6],primary[5],primary[4],social[0],social[1],primary[7],social[2],social[3]].map(item => link(item, page)).join('')}</nav></details>
       <div class="nav-label">ACCOUNT</div>
       <nav class="nav-list" aria-label="Account">${account.map(item => link(item, page)).join('')}<span id="moderation-nav"></span></nav>
       <div class="sidebar-foot"><div class="sidebar-wordmark">GAME<b>VAULT</b></div><span>GRAND THEFT AUTO COMMUNITY</span></div>

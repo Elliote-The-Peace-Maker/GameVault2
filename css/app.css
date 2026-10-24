@@ -967,3 +967,79 @@ html[data-gv-theme] [data-app-shell] .vault-spotlight-hit {z-index:2}
 .gv-community-art{height:112px;margin:-20px -20px 15px;border-radius:17px 17px 0 0;background-color:#142536;background-position:center 55%;background-size:cover;border-bottom:1px solid #ffffff16}
 @media(max-width:760px){.gv-community-art{margin:-16px -16px 13px;border-radius:17px 17px 0 0}}
 @media(max-width:560px){[data-app-shell] .gv-avatar-controls{gap:9px}[data-app-shell] .gv-avatar-preview{width:63px;height:63px}[data-app-shell] .avatar-option{min-height:90px;padding:8px 5px}}
+
+/* Player-owned progression and the reviewed GTA news feed. */
+[data-app-shell] .gv-tracker{padding:clamp(16px,2.5vw,25px);margin:20px 0;overflow:hidden}
+[data-app-shell] .gv-tracker-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px}
+[data-app-shell] .gv-tracker-head h2,[data-app-shell] .gv-news-intro h2{font:700 clamp(20px,2.5vw,29px)/1.15 'Space Grotesk',sans-serif;margin:0 0 8px}
+[data-app-shell] .gv-tracker-head p:not(.eyebrow){max-width:850px;font-size:11px;line-height:1.65;margin:0}
+[data-app-shell] .gv-tracker-head-mark,[data-app-shell] .gv-news-mark{width:48px;height:48px;border:1px solid color-mix(in srgb,var(--accent-secondary,#eb4c9c) 55%,transparent);border-radius:15px;display:grid;place-items:center;color:var(--accent-secondary,#eb4c9c);background:color-mix(in srgb,var(--accent-secondary,#eb4c9c) 10%,transparent);flex:none}
+[data-app-shell] .gv-tracker-head-mark .vexra-icon,[data-app-shell] .gv-news-mark .vexra-icon{width:23px;height:23px}
+[data-app-shell] .gv-tracker-chips{display:flex;flex-wrap:wrap;gap:7px;margin:17px 0 12px}
+[data-app-shell] .gv-tracker-quicklinks{display:flex;flex-wrap:wrap;gap:7px;padding-bottom:15px;border-bottom:1px solid var(--line,#ffffff16)}
+[data-app-shell] .gv-tracker-quicklinks .btn{min-height:34px;font-size:10px}
+[data-app-shell] .gv-tracker-content{padding-top:16px}
+[data-app-shell] .gv-tracker-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin-bottom:13px}
+[data-app-shell] .gv-tracker-summary>div{display:grid;gap:4px;min-height:62px;padding:11px 13px;border:1px solid var(--line,#ffffff16);border-radius:12px;background:#ffffff04}
+[data-app-shell] .gv-tracker-summary strong{font:700 19px 'Space Grotesk',sans-serif;color:var(--accent-secondary,#f05aa4)}
+[data-app-shell] .gv-tracker-summary span,[data-app-shell] .gv-tracker-generator small{color:var(--muted,#aaa);font-size:10px}
+[data-app-shell] .gv-tracker-generator{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px;margin-bottom:12px;border:1px solid color-mix(in srgb,var(--accent-secondary,#eb4c9c) 28%,transparent);border-radius:12px;background:color-mix(in srgb,var(--accent-secondary,#eb4c9c) 6%,transparent)}
+[data-app-shell] .gv-tracker-generator>div{display:grid;gap:4px}
+[data-app-shell] .gv-tracker-generator strong{font:600 12px 'Space Grotesk',sans-serif}
+[data-app-shell] .gv-tracker-generator .btn{flex:none}
+[data-app-shell] .gv-tracker-form{display:grid;grid-template-columns:1fr 1.4fr 1fr;align-items:end;gap:10px;padding:15px;border:1px solid var(--line,#ffffff16);border-radius:14px;background:#ffffff03}
+[data-app-shell] .gv-tracker-form .gv-tracker-note{grid-column:1 / span 2}
+[data-app-shell] .gv-tracker-form .textarea{min-height:62px}
+[data-app-shell] .gv-tracker-form>[type="submit"]{justify-self:start}
+[data-app-shell] .gv-tracker-feedback{grid-column:1/-1}
+[data-app-shell] .gv-tracker-feedback:empty{display:none}
+[data-app-shell] .gv-tracker-feedback .state{padding:9px 11px;font-size:10px}
+[data-app-shell] .gv-tracker-recent{margin-top:17px}
+[data-app-shell] .gv-tracker-list-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:9px}
+[data-app-shell] .gv-tracker-list-heading h3,[data-app-shell] .gv-news-my-submissions h3{font:600 13px 'Space Grotesk',sans-serif;margin:0}
+[data-app-shell] .gv-tracker-list-heading span{color:var(--muted,#aaa);font-size:10px}
+[data-app-shell] .gv-tracker-list{display:grid;gap:8px}
+[data-app-shell] .gv-tracker-entry{display:grid;grid-template-columns:minmax(0,1fr) minmax(125px,170px) 36px;align-items:center;gap:9px;padding:11px 12px;border:1px solid var(--line,#ffffff16);border-radius:12px;background:#ffffff03}
+[data-app-shell] .gv-tracker-entry-copy{display:grid;gap:4px;min-width:0}
+[data-app-shell] .gv-tracker-entry-copy>strong{font:600 12px 'Space Grotesk',sans-serif;overflow-wrap:anywhere}
+[data-app-shell] .gv-tracker-entry-copy p{font-size:10px;color:var(--muted,#aaa);margin:0;overflow-wrap:anywhere}
+[data-app-shell] .gv-tracker-entry-copy small{font-size:9px;color:var(--muted,#888)}
+[data-app-shell] .gv-tracker-category{color:var(--accent-secondary,#f05aa4);font-size:9px;text-transform:uppercase;letter-spacing:.1em}
+[data-app-shell] .gv-tracker-status{padding:8px;font-size:10px}
+[data-app-shell] .gv-tracker-delete{width:34px;min-width:34px;height:34px;padding:0;color:#dd8b9c}
+[data-app-shell] .gv-tracker-delete .vexra-icon{width:15px;height:15px}
+[data-app-shell] .gv-tracker-empty{padding:17px}
+[data-app-shell] .gv-tracker-empty h3{font-size:12px}
+[data-app-shell] .gv-tracker-empty p{font-size:10px}
+[data-app-shell] .gv-tracker-signin .row{margin-top:12px}
+[data-app-shell] .gv-news-intro{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:clamp(20px,4vw,42px);margin-bottom:18px;border:1px solid var(--line,#ffffff18);border-radius:18px;background:radial-gradient(ellipse at 84% 8%,color-mix(in srgb,var(--accent-secondary,#e93d98) 23%,transparent),transparent 42%),linear-gradient(140deg,#10121c,#161020 70%,#261020);overflow:hidden}
+[data-app-shell] .gv-news-intro>div:first-child{max-width:800px}
+[data-app-shell] .gv-news-intro p:not(.eyebrow){font-size:12px;line-height:1.7;color:var(--muted,#aaa);max-width:690px;margin:0 0 16px}
+[data-app-shell] .gv-news-intro .row{gap:8px}
+[data-app-shell] .gv-news-panel{padding:clamp(16px,2vw,22px);margin-bottom:17px}
+[data-app-shell] .gv-news-toolbar{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:14px}
+[data-app-shell] .gv-news-toolbar h2{margin-bottom:5px}
+[data-app-shell] .gv-news-toolbar .field-wrap{width:min(280px,100%);font-size:10px}
+[data-app-shell] .gv-news-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+[data-app-shell] .gv-news-card{min-width:0;display:grid;align-content:start;gap:11px;padding:16px;border:1px solid var(--line,#ffffff16);border-radius:14px;background:linear-gradient(150deg,#ffffff06,#ffffff02)}
+[data-app-shell] .gv-news-meta{display:flex;align-items:center;flex-wrap:wrap;gap:7px;color:var(--muted,#999);font-size:9px}
+[data-app-shell] .gv-news-meta time{margin-left:auto}
+[data-app-shell] .gv-news-card h3{font:600 15px/1.4 'Space Grotesk',sans-serif;margin:0;overflow-wrap:anywhere}
+[data-app-shell] .gv-news-card>p{color:var(--muted,#aaa);font-size:11px;line-height:1.65;margin:0;white-space:pre-wrap;overflow-wrap:anywhere}
+[data-app-shell] .gv-news-source{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-top:10px;border-top:1px solid var(--line,#ffffff16);color:var(--muted,#aaa);font-size:10px}
+[data-app-shell] .gv-news-source>span{overflow-wrap:anywhere}
+[data-app-shell] .gv-news-source .btn{flex:none}
+[data-app-shell] .gv-news-empty{padding:18px}
+[data-app-shell] .gv-news-submit{display:grid;gap:14px;padding:clamp(16px,2vw,22px);margin-bottom:17px}
+[data-app-shell] .gv-news-submit>div:first-child p{margin:5px 0 0}
+[data-app-shell] .gv-news-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:end;gap:11px}
+[data-app-shell] .gv-news-form .field-wrap:has(textarea),[data-app-shell] .gv-news-form>div,[data-app-shell] .gv-news-form>button{grid-column:1/-1}
+[data-app-shell] .gv-news-form .textarea{min-height:88px}
+[data-app-shell] .gv-news-my-submissions{display:grid;gap:8px;padding-top:13px;border-top:1px solid var(--line,#ffffff16)}
+[data-app-shell] .gv-news-submission-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 10px;border:1px solid var(--line,#ffffff16);border-radius:9px;font-size:10px}
+[data-app-shell] .gv-news-moderation{padding:13px 16px;margin-bottom:16px}
+[data-app-shell] .gv-news-moderation>summary{cursor:pointer;font:600 13px 'Space Grotesk',sans-serif}
+[data-app-shell] .gv-news-moderation-content{padding-top:13px}
+[data-app-shell] .gv-news-review-card .row{padding-top:2px}
+@media(max-width:760px){[data-app-shell] .gv-news-list{grid-template-columns:1fr}[data-app-shell] .gv-tracker-form{grid-template-columns:1fr 1fr}[data-app-shell] .gv-tracker-form .gv-tracker-note{grid-column:1/-1}[data-app-shell] .gv-news-intro{padding:20px}[data-app-shell] .gv-news-toolbar{align-items:stretch;flex-direction:column}[data-app-shell] .gv-news-toolbar .field-wrap{width:100%}}
+@media(max-width:520px){[data-app-shell] .gv-tracker-head-mark,[data-app-shell] .gv-news-mark{display:none}[data-app-shell] .gv-tracker-quicklinks .btn{flex:1 1 calc(50% - 8px);justify-content:center}[data-app-shell] .gv-tracker-summary{gap:6px}[data-app-shell] .gv-tracker-summary>div{padding:9px 8px;min-height:59px}[data-app-shell] .gv-tracker-summary strong{font-size:16px}[data-app-shell] .gv-tracker-summary span{font-size:8px}[data-app-shell] .gv-tracker-generator{align-items:flex-start;flex-direction:column}[data-app-shell] .gv-tracker-generator .btn{width:100%;justify-content:center}[data-app-shell] .gv-tracker-form{grid-template-columns:1fr}[data-app-shell] .gv-tracker-form .gv-tracker-note{grid-column:1}[data-app-shell] .gv-tracker-entry{grid-template-columns:minmax(0,1fr) 34px;gap:8px}[data-app-shell] .gv-tracker-status{grid-column:1/-1;grid-row:2;width:100%}[data-app-shell] .gv-tracker-delete{grid-column:2;grid-row:1}[data-app-shell] .gv-news-form{grid-template-columns:1fr}[data-app-shell] .gv-news-form .field-wrap:has(textarea),[data-app-shell] .gv-news-form>div,[data-app-shell] .gv-news-form>button{grid-column:1}}

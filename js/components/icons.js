@@ -1,5 +1,5 @@
 const names = new Set([
-  'home','explore','communities','games','library','creator','media','streams',
+  'home','explore','communities','games','library','creator','media','news','streams',
   'messages','notifications','challenges','history','account','settings','help','moderation',
   'maps','subscription','search','menu','plus','close','chevron-down','arrow-right','filter','grid','list','edit',
   'trash','upload','download','check','external-link','more','send','link','share','copy',

@@ -1,0 +1,79 @@
+{
+  "grand-theft-auto": {
+    "categories": ["missions", "districts", "vehicles", "personal-records"],
+    "note": "Use these as personal notes for the original multi-city, top-down game."
+  },
+  "grand-theft-auto-london-1969": {
+    "categories": ["story-missions", "districts", "time-trials", "vehicles"],
+    "note": "A personal checklist for the London expansion; record only the objectives you choose."
+  },
+  "grand-theft-auto-london-1961": {
+    "categories": ["story-missions", "districts", "time-trials", "vehicles"],
+    "note": "A personal checklist for the London expansion; record only the objectives you choose."
+  },
+  "grand-theft-auto-2": {
+    "categories": ["story-missions", "districts", "gang-reputation", "vehicles"],
+    "note": "Track missions, districts, gangs, and vehicle goals as your own notes."
+  },
+  "grand-theft-auto-iii": {
+    "categories": ["story-missions", "side-missions", "collectibles", "rampages", "stunt-jumps", "vehicles"],
+    "note": "Story and side-mission checklist with optional collectibles, rampages, stunts, and vehicle notes."
+  },
+  "grand-theft-auto-vice-city": {
+    "categories": ["story-missions", "asset-missions", "side-missions", "collectibles", "stunt-jumps", "vehicles"],
+    "note": "Track story progress, asset missions, side activities, hidden items, stunts, or vehicles."
+  },
+  "grand-theft-auto-san-andreas": {
+    "categories": ["story-missions", "side-missions", "territories", "collectibles", "schools", "safehouses", "vehicles"],
+    "note": "Includes personal logs for story, side missions, territory, collectibles, schools, safehouses, and vehicles."
+  },
+  "grand-theft-auto-advance": {
+    "categories": ["story-missions", "side-missions", "districts", "collectibles", "vehicles"],
+    "note": "Keep a lightweight handheld-era story and city checklist. Entries are player-entered."
+  },
+  "grand-theft-auto-liberty-city-stories": {
+    "categories": ["story-missions", "side-missions", "collectibles", "asset-missions", "stunt-jumps", "vehicles"],
+    "note": "Track the story, optional activities, collectibles, asset work, stunts, and vehicle goals."
+  },
+  "grand-theft-auto-vice-city-stories": {
+    "categories": ["story-missions", "side-missions", "empire-sites", "collectibles", "stunt-jumps", "vehicles"],
+    "note": "A personal tracker for story, empire building, optional activities, collectibles, stunts, and vehicles."
+  },
+  "grand-theft-auto-chinatown-wars": {
+    "categories": ["story-missions", "side-missions", "drug-deals", "collectibles", "vehicles"],
+    "note": "Use the log for story, side activities, deals, collectible finds, and vehicle goals."
+  },
+  "grand-theft-auto-iv": {
+    "categories": ["story-missions", "side-activities", "collectibles", "stunt-jumps", "achievements", "personal-goals"],
+    "note": "Keep a personal Liberty City story, activity, collectible, stunt, and achievement checklist."
+  },
+  "grand-theft-auto-iv-the-lost-and-damned": {
+    "categories": ["story-missions", "gang-reputation", "side-activities", "collectibles", "vehicles"],
+    "note": "Focus the log on the episode story, club activities, side work, collectibles, and bikes or other vehicles."
+  },
+  "grand-theft-auto-the-ballad-of-gay-tony": {
+    "categories": ["story-missions", "side-activities", "base-jumps", "collectibles", "vehicles"],
+    "note": "Track episode missions, nightlife activities, base jumps, collectible finds, and vehicle goals."
+  },
+  "grand-theft-auto-episodes-from-liberty-city": {
+    "categories": ["episode-progress", "story-missions", "side-activities", "collectibles", "vehicles"],
+    "note": "This release includes two episodes. Prefix entry names with Lost and Damned or Ballad of Gay Tony to keep them distinct."
+  },
+  "grand-theft-auto-v": {
+    "categories": ["story-missions", "heists", "strangers-freaks", "hobbies", "collectibles", "properties", "vehicles", "regions"],
+    "note": "Track Story Mode progress, heists, Strangers and Freaks, hobbies, collectibles, properties, vehicles, and areas you explore."
+  },
+  "grand-theft-auto-online": {
+    "categories": ["career-progress", "jobs", "businesses", "properties", "vehicles", "weekly-challenges", "collections", "discovery"],
+    "note": "Career, jobs, businesses, properties, vehicles, weekly goals, collections, and discoveries are personal notes. Nothing syncs from Rockstar."
+  },
+  "grand-theft-auto-the-trilogy-definitive-edition": {
+    "categories": ["edition-progress", "story-missions", "side-missions", "collectibles", "rampages", "stunt-jumps", "properties", "vehicles"],
+    "note": "The collection contains GTA III, Vice City, and San Andreas. Prefix each entry with the edition name."
+  },
+  "grand-theft-auto-vi": {
+    "mode": "pre-release",
+    "categories": ["launch-watchlist", "personal-goals"],
+    "note": "GTA VI is not released yet. Save personal launch notes here; gameplay tracking will be enabled after release and confirmed systems can be documented."
+  }
+}
